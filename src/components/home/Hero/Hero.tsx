@@ -4,7 +4,7 @@ export const Hero = () => {
     return(
         <section className={styles.Hero}>
             <h1>Ranchesca Store</h1>
-            <h2>A place where you can find the best products for your home and garden.</h2>
+            <h2>A place where you can find the best products for you, which demonstrate the love and tenderness you have for your pets.</h2>
         </section>
     )
 }
