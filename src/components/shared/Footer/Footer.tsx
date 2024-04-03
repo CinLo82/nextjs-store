@@ -1,7 +1,7 @@
 export const Footer = () => {
     return (
         <footer>
-            <p>Ranchesca Store</p>
+            <p>Cinlo Store</p>
         </footer>
     )
 }
