@@ -1,3 +1,4 @@
+import { ReactNode } from 'react'
 import { Roboto } from 'next/font/google'
 import { Hero } from "app/components/home/Hero"
 import { Description } from "app/components/home/Description"

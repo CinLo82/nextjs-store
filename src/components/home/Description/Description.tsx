@@ -24,7 +24,7 @@ export const Description = () => {
             <button className={buttonStyles} onClick={handleClick}>
                 <div className={styles.Description__imageContainer}>
                     <Image 
-                        src="/images/product1.jpg" 
+                        src="/images/logo.png" 
                         alt="product marketplace" 
                         fill
                         placeholder='blur'
@@ -33,8 +33,11 @@ export const Description = () => {
                 </div>
             </button>
             <div>
-                <h2>Description</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis beatae molestias nihil culpa hic corporis, nemo doloribus nesciunt. Autem dolor sit quo ipsa expedita, nemo qui doloribus animi vero! Natus.</p>
+                <h2>¡Bienvenidos a Tejiendo Sonrisas, donde la magia del tejido nunca termina!</h2>
+                <p>Nos encanta tejer y la magia del amigurumi. Nuestro objetivo es ser una fuente de inspiración y recursos para ayudarte a dar vida a tus  creaciones.</p>
+                <p>Así que agarrá tus agujas, seleccioná tus hilos favoritos y prepárate para embarcarte en un viaje lleno de creatividad y diversión.</p>
+                <p>Pero TejiendoSonrisas  es más que un lugar para aprender y crear. También es un lugar para compartir, conectar y difundir la alegría de tejer. Unite a nosotros en un viaje de descubrimiento a través de este mundo mágico lleno de color, textura y, sobre todo,  muchas sonrisas.
+                Cada hilo aquí es una oportunidad para alegrarle el día a alguien con un toque de amabilidad y creatividad.</p>
             </div> 
         </section>
     )
