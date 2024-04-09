@@ -6,10 +6,12 @@ interface ProductsWrapperProps {
 }
 
 export const ProductsWrapper = ({ products }: ProductsWrapperProps) => {
+  console.log(products)
   return (
     <div className={styles.ProductsWrapper}>
       {products.map((product) => (
         <ProductCard key={product.id} product={product}/>
+       
       ))}
     </div>
   )
